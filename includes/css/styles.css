@@ -13,7 +13,12 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+#features{
+text-align: center;
+}
+#features img{
+  margin:0 0 20px;
+}
 
 
 /* --------------------------------------
@@ -65,7 +70,9 @@ body{
 .well{
   margin:20px 0px;
 }
-
+.tabbable img.thumbnail{
+  margin:0 20px 10px 0;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
