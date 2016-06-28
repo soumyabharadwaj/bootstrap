@@ -34,8 +34,8 @@ text-align: center;
 }
 .primary .g1,.g2,.g3 {
   margin-top: 14px;
-  background-color: #f0f0ed;
-  padding: : 10PX;
+  background-color: #D5D8DC;
+
 margin-bottom: 10PX;
 text-align: justify;
 }
@@ -47,19 +47,23 @@ text-align: justify;
   font-family: 'Average', serif;
   color: #1A5276;
 }
-.g1,.g2,.g3 {
-  padding:10px;
-}
-.g3{
-  padding-bottom: 20px;
+
+.g3 h4{
+
+  padding: 5px;
 }
 .img_size img{
   width:300px;
   height:200px;
 
 }
+.g3{
+  padding-bottom: 70px;
+}
 .g3 .r1 p{
-  padding-top: 10px;
+  padding:5px;
+text-align: center;
+margin-right: 12px;
 }
 .hero_div1{
   background-image: url('ru.jpg');
@@ -105,7 +109,7 @@ margin-top: 10px;
 }
 body{
   font-family: sans-serif;
-background: #f0f0ed;
+background: #D5D8DC;
 }
 
 header{
