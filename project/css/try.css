@@ -34,7 +34,7 @@ text-align: center;
 }
 .primary .g1,.g2,.g3 {
   margin-top: 14px;
-  background-color: #D5D8DC;
+  background-color:#E5E8E8;
 
 margin-bottom: 10PX;
 text-align: justify;
@@ -109,7 +109,8 @@ margin-top: 10px;
 }
 body{
   font-family: sans-serif;
-background: #D5D8DC;
+/*background: #D5D8DC;*/
+background: #E5E8E8;
 }
 
 header{

@@ -39,7 +39,7 @@
 							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">
 								Services<strong class="caret"></strong></a>
 									<ul class="dropdown-menu">
-											<li><a href="#">Web Design</a></li>
+											<li><a href="#features">Web Design</a></li>
 											<li><a href="#">Services</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li class="divider"></li>
@@ -202,14 +202,14 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-						</div><!--tab-pane-->
+						</div><!--tab-pane id=1-->
 						<div class="tab-pane" id="tab2">
 							<h4>a left floated picture <small>using placeholder</small></h4>
 							<img src="http://placehold.it/350x150" class="thumbnail pull-left">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for a ModaL Window</a>
+							<hr>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a ModaL Window</a>
 							<div class="modal fade" id="myModal">
 								<div class="modal-dialog">
 									<div class="modal-content">
@@ -218,23 +218,158 @@
 												<h4 class="modal-title">A modal window</h4>
 										</div><!--header-->
 										<div class="modal-body">
+												<h4>Text in a Modal</h4>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+												<h4>popovers in modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You Clicked It!" data-content="I know you would!">Don;t click this button</a>
+
+												<h4>Tooltips in modal</h4>
+												<a href="" data-original-title="Tooltip" rel="tooltip">This Link</a>should have a tooltip and so should <a href="#" data-original-title="Tooltip" rel="tooltip">this one</a>!
+
+												<hr>
+												<p><small class="text-muted">PS: this form doesnt do anything</small></p>
+
+												<form class="form-horizontal">
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" placeholder="Message" id="inputMessage" rows="3"></textarea>
+															<button class="btn btn-success pull-right">Save</button>
+														</div>
+													</div>
+
+												</form>
 
 										</div><!--modal-body-->
+										<div class="modal-footer">
+											<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+											<button class="btn btn-default" data-dismiss="modal" type="button">Save</button>
+										</div>
 									</div><!--modal content-->
 								</div><!--model dialog-->
-							</div><!--myMODAL-->
-						</div>
+							</div><!--modal id:myMODAL-->
+						</div><!--tab pan:id=2-->
 					</div><!--tab-content-->
-				</div>
-			</div><!--col-sm-6-->
-		</div>
-		<div class="row" id="moreCourses">
+				</div><!--tabbale-->
+			</div><!--col-sm-6-of moreinfo-->
+			<div class="col-sm-6">
+				<h3>Some Text Info</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		</div>
+				<h4>List of groups</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Kale</h4>
+						<p class="list-group-itme-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 lcass="list-group-item-heading">Carrots</h4>
+						<p class="list-group-itme-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 lcass="list-group-item-heading">Oats</h4>
+						<p class="list-group-itme-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					</a>
+					<h5>A small heading</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--end of listy og group-->
+			</div>
+		</div><!--end of moriInfo-->
+<hr>
+		<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>learn nmore about web</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="web hosting">
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>free</div>
+								<div class="caption">
+									<h3>Web hosting</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre</p>
+									<p><a href="#" class="btn btn-primary btn-small" target=-"_blank">Take course </a>
+										<a href="#" class="btn btn-link btn-small">Learn More</a>
+									</p>
+								</div>
+							</div><!--end thumbnail-->
+						</div><!--end col-6-->
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="psd to html5">
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>39</div>
+								<div class="caption">
+									<h3>Psd to html5</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre</p>
+
+									<p><a href="#" class="btn btn-primary btn-small" target=-"_blank">Take course </a>
+										<a href="#" class="btn btn-link btn-small">Learn More</a>
+									</p>
+								</div>
+							</div><!--end thumbnail-->
+						</div><!--end col-6-->
+
+					</div><!--end row-->
+				</div><!--end of col-12 of more courses-->
+		</div><!--more courses-->
+
 </div><!-- end main container-->
 <footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {name}</h6>
+			</div><!--col-sm-2-->
+			<div class="col-sm-4">
+				<h6>About us</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-</footer>
+			</div><!--col-sm-4-->
+			<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Feeback</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+			</div><!--col-sm-2-->
+			<div class="col-sm-2">
+				<h6>Follow us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Youtube</a></li>
+				</ul>
+			</div><!--col-sm-2-->
+			<div class="col-sm-2">
+				<h6>coded by <span class="glyphicon glyphicon-heart"></span>soumya</h6>
+			</div><!--col-sm-2-->
+		</div><!--row-->
+	</div><!--container-->
+</footer><!--footer-->
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 
 	<!-- First try for the online version of jQuery-->
