@@ -23,6 +23,7 @@ mission statement
    -------------------------------------- */
 #features{
 text-align: center;
+padding: 20px 0;
 }
 #features img{
   margin:0 0 20px;
@@ -30,14 +31,25 @@ text-align: center;
 #inputMessage{
   margin-bottom: 15px;
 }
+.feature h3,p{
+  font-family: sans-serif;
+}
+
+/*----------------
+      footer
+------------------*/
 footer{
   background:#0285a3;
   color:white;
   font-size: 11px;
   padding: 20px;
+  width: 100%;
+
 }
 footer .row a{
   color:whitesmoke;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 .social li{
   display: inline;
@@ -46,9 +58,15 @@ padding: 10px;
 .social img{
   width: 35px;
 }
-.social li a{
+.social li, .social a{
   height:50%;
   width: 50%;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.copyright h6{
+  font-size: 16px;
+  font-family: sans-serif;
 }
 /* --------------------------------------
    Typography
@@ -73,6 +91,9 @@ ul.unstyled{
 #searchInput{
   width: 200px;
 }
+.navbar{
+  border-bottom: 2px solid #0285a3;
+}
 .logo{
   color:#ff9800;
   font-weight: bold;
@@ -81,6 +102,10 @@ ul.unstyled{
 }
 .navbar-nav{
   margin-top: 25px;
+
+}
+.nav li a{
+  display: inline;
 }
 /* --------------------------------------
    Carousel
@@ -96,7 +121,7 @@ ul.unstyled{
   background-size: cover;
 }
 #slide2{
-  background:url('../../images/smile_med.jpg') top center no-repeat;
+  background:url('../../images/ru.jpg') top center no-repeat;
   background-size: cover;
 }
 #slide3{
@@ -143,7 +168,7 @@ ul.unstyled{
     background-size: cover;
   }
   #slide2{
-    background:url('../../images/smile_small.jpg') top center no-repeat;
+    background:url('../../images/ru.jpg') top center no-repeat;
     background-size: cover;
   }
   #slide3{
@@ -162,13 +187,14 @@ ul.unstyled{
     background-size: cover;
   }
   #slide2{
-    background:url('../../images/smile_large.jpg') top center no-repeat;
+    background:url('../../images/ru.jpg') top center no-repeat;
     background-size: cover;
   }
   #slide3{
     background:url('../../images/main_large.jpg') top center no-repeat;
     background-size: cover;
   }
+
 }
 /*-------------callout--------------*/
 .page-header h1{
@@ -183,4 +209,27 @@ ul.unstyled{
 }
 .page-header a{
   text-align: center;
+}
+/*-----------------------------
+mission callout
+------------------------------*/
+.mission h3{
+  font-family: Montserrat;
+  font-size: 4em;
+  margin:1.78rem 0 1.424rem;
+  font-weight:bold;
+text-align: center;
+}
+.mission p{
+  font-family:sans-serif;
+  margin:1.78rem 0 1.424rem;
+text-align: center;
+  font-size: 1.68rem;
+  font-weight: lighter;
+}
+.mission{
+  padding:70px 0;
+}
+.mission .row:first-child{
+  padding-bottom: 30px;
 }
