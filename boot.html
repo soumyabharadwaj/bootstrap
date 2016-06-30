@@ -25,6 +25,7 @@
 	<body>
 
 	<div class="container-fluid" id="main">
+<!--
 		<div class="navbar navbar-fixed-top">
 
 				<div class="container">
@@ -33,8 +34,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!--<a href="#" class="navbar-brand"><img src="" alt="logo" /></a>-->
-					<h1 class="logo pull-left">Reach <span class="glyphicon glyphicon-globe"></span>ut</h1>
+							<h1 class="logo pull-left">Reach <span class="glyphicon glyphicon-globe"></span>ut</h1>
 					<div class="nav-collapse collapse navbar-responsive-collapse pull-right ">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Home</a></li>
@@ -56,11 +56,6 @@
 							<li><a href="#">Membership</a></li>
 
 
-						<!--<form class="navbar-form">
-							<input type="text" class="form-control" id="searchInput" placeholder="Search in this site..." />
-							<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-						</form>-->
-
 							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user "></span>
 								My Accounts<strong class="caret"></strong></a>
 								<ul class="dropdown-menu">
@@ -75,11 +70,63 @@
 								</ul>
 
 
-						</ul><!--navbar nav-->
+						</ul>
 					</div>
 				</div>
 
-		</div>
+		</div> -->
+		<div class="navbar navbar-fixed-top">
+
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1 class="logo pull-left">Reach <span class="glyphicon glyphicon-globe"></span>ut</h1>
+					<div class="nav-collapse collapse navbar-responsive-collapse pull-right">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Home</a></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">
+								Services<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+											<li><a href="#features">Web Design</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="#">Feedback</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header">More services</li>
+											<li><a href="#">Contact</a></li>
+
+											<li><a href="#">Settings</a></li>
+									</ul>
+							</li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">What We Do</a></li>
+							<li><a href="#">Membership</a></li>
+						</ul>
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user "></span>
+								My Accounts<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>
+									Settings</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-refresh"></span>
+									Update Profile</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>
+									Billing</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-off"></span>
+									Sign Out</a></li>
+								</ul>
+							</li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+				</div><!--container-->
+
+		</div><!--navbar fixed-->
+
+
 
 
 		<div class="carousel slide" id="myCarousel">
@@ -88,29 +135,35 @@
 				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
 				<li data-slide-to="1" data-target="#myCarousel"></li>
 				<li data-slide-to="2" data-target="#myCarousel"></li>
+				<li data-slide-to="3" data-target="#myCarousel"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active" id="slide1">
 					<div class="carousel-caption">
-						<h4>Bootstrap 1</h4>
-						<p>Learn howe to build !!!....</p>
+						<h4>Donate a smile</h4>
+						<p>Even the most vulnerable children in the society are able to realize equitable outcomes.</p>
 					</div>
 				</div>
 
 				<div class="item" id="slide2">
 					<div class="carousel-caption">
-						<h4>Bootstrap 2</h4>
-						<p>web desiging help you!!!....</p>
+						<h4>Weaving the way to future</h4>
+						<p>Help them grow</p>
 					</div>
 				</div>
 
 				<div class="item" id="slide3">
 					<div class="carousel-caption">
-						<h4>Bootstrap 3</h4>
-						<p>web hosting 101//learn how to buy a domain name and hosting@ !!!....</p>
+						<h4>Provide Resources</h4>
+						<p>help them nututre the mother nat</p>
 					</div>
 				</div>
-
+				<div class="item" id="slide4">
+					<div class="carousel-caption">
+						<h4>Donate a smile</h4>
+						<p>Even the most vulnerable children in the society are able to realize equitable outcomes.</p>
+					</div>
+				</div>
 			</div><!--caraosel-inner-->
 			<!--controls-->
 			<a class="left carousel-control" data-slide="prev" href="#myCarousel">
@@ -125,11 +178,7 @@
 <div class="container">
 		<div class="row" id="bigCallout">
 			<div class="col-12">
-				<div class="alert alert-success alert-block fade in" id="successAlert">
-					<button type="button" class="close" data-dismiss="alert" >&times;</button>
-					<h4>Success!</h4>
-					<p>Lorem ipsum dolor sit amet, coam, quis nostrud exercitation ullamco lab</p>
-				</div>
+
 					<div class="well well-small visible-sm">
 						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
 					</div>	<!--well small-->
@@ -139,8 +188,121 @@
 						</div><!--page header-->
 						<p class="lead">The NGO Health Committee, Inc. is an international nonprofit 501(c)(3), nonpolitical, nonsectarian consortium of health professionals and other individuals who volunteer their expertise towards special United Nations goals regarding health and health care globally.</p>
 						<p class="lead">NGO Health Committee members are individuals and representatives of organizations who offer both knowledge and skills in contributing toward the achievement of our special goals.</p>
-							<center><a href="" class="btn btn-large btn-warning" id="alertMe">FIND OUT MORE</a></center>
+							<center>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">Enroll With Us</a>
+							</center>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Reach-Out</h4>
+										</div><!--header-->
+										<div class="modal-body">
+												<h4>Register and Start Making a Difference</h4>
+												<hr>
+												<form class="form-horizontal">
 
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputName">Name</label>
+														<div class="col-lg-9">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-9">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputEmail">Phone</label>
+														<div class="col-lg-9">
+															<input class="form-control" id="inputPhone" placeholder="Phone" type="contact">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputEmail">Address</label>
+														<div class="col-lg-9">
+															<textarea class="form-control" placeholder="Address" id="inputAddress" rows="3"></textarea>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputSex">Sex</label>
+															<div class="col-lg-9">
+																<select class="form-control" id="inputPhone" placeholder="Sex" type="contact">
+																	<option value="male">Male</option>
+																	<option value="female">Female</option>
+																</select>
+															</div>
+														</div>
+
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputcity">Select City</label>
+														<div class="col-lg-9">
+															<select class="form-control" id="inputSex" placeholder="Select" type="sex" >
+																			<option value="" selected disabled>Please select</option>
+																			<option value="pune">Pune</option>
+																			<option value="chm">Chennai</option>
+																			<option value="bng">Bengulure</option>
+																			<option value="mum">Mumbai</option>
+																			<option value="del">Delhi</option>
+																			<option value="kol">Kolkata</option>
+																			<option value="jai">Jaipur</option>
+																			<option value="indore">Indore</option>
+															</select>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputcity">Job Status</label>
+														<div class="col-lg-9">
+
+															<select class="form-control" id="inputPhone" placeholder="JobStatus" type="status">
+																<option value="" selected disabled>Please select</option>
+																<option value="student">Student</option>
+																<option value="working">Working</option>
+																<option value="others">others</option>
+															</select>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputcity">Source</label>
+														<div class="col-lg-9">
+															<select class="form-control" id="inputSource" placeholder="Source" type="source">
+																<option value="" selected disabled>Please select</option>
+																<option value="student">Friends</option>
+																<option value="working">Presentation</option>
+																<option value="others">Blog</option>
+															</select>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-3 control-label" for="inputWhy">Why Reach-Out</label>
+														<div class="col-lg-9">
+															<textarea class="form-control" placeholder="Why Reach-out" id="inputAddress" rows="3"></textarea>
+															<button class="btn btn-success pull-right">Save</button>
+														</div>
+													</div>
+
+												</form>
+
+										</div><!--modal-body-->
+										<div class="modal-footer">
+											<button class="btn btn-primary btn-block" data-dismiss="modal" type="button">Register</button>
+										</div>
+									</div><!--modal content-->
+								</div><!--model dialog-->
+							</div><!--modal id:myMODAL-->
+<!--model ebd here---------------->
 					</div><!--well-->
 				</div><!--col-12-->
 			</div><!--big callout-->
@@ -180,6 +342,11 @@
 <!--end of international news-->
 <!------------------------------------------------------------>
 <div class="container">
+	<div class="row" id="featuresHeading">
+		<div class="col_12">
+			<h2>Events Shaping The World</h2>
+		</div><!--coll_12-->
+	</div><!--features haeding-->
 <div class="row" id="features">
 
 	<div class="col-sm-4 feature">
@@ -195,7 +362,7 @@
 		<div class="panel">
 			<img src="images/or.jpg" class="img-responsive" alt="HTML5">
 			<h3>Cultural Fest</h3>
-			<p>Shining stars, Outreach 's cultural fest for children from orphanages and special schools in Chennai gets underway. 365 children from 20 institutions are participating in this event</p>
+			<p>Shining stars, Outreach 's cultural fest for children from orphanages and special schools in Chennai living in underpriviledged areas and boundaries gets underway. 365 children from 20 institutions are participating in this event</p>
 			<a href="#" target="_blank" class="btn btn-warning">Read More</a>
 		</div><!--panel-->
 	</div><!--col-sm-4-->
@@ -205,7 +372,7 @@
 			<img src="images/clean.jpg" class="img-responsive"  alt="HTML5" class="img-circle">
 				<h3>Clean The Lake</h3>
 				<p>This was what some of the lakes in Chennai looked like when our volunteers first visited them.
-					This was the seed for the "Clean the Lake" program, an initiative to restore the water bodies in the city. Partnering with Environmental Foundation of India, our volunteers undertook clean-up activities every weekend</p>
+					 Partnering with Environmental Foundation of India, our volunteers undertook clean-up activities every weekend</p>
 				<a href="#" target="_blank" class="btn btn-warning">Read More</a>
 		</div><!--panel-->
 	</div><!--col-sm-4-->
