@@ -34,7 +34,12 @@ padding: 20px 0;
 .feature h3,p{
   font-family: sans-serif;
 }
-
+.more{
+  margin-top: 100px;
+}
+#moreCourses1{
+  margin-bottom: 10px;
+}
 /*----------------
       footer
 ------------------*/
@@ -97,11 +102,11 @@ ul.unstyled{
 .logo{
   color:#ff9800;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 32px;
 
 }
 .navbar-nav{
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 /* --------------------------------------
@@ -116,6 +121,7 @@ ul.unstyled{
 #slide1{
   background:url('../../images/1_def.jpg') top center no-repeat;
   background-size: cover;
+
 }
 #slide2{
   background:url('../../images/2_def.jpg') top center no-repeat;
@@ -128,9 +134,30 @@ ul.unstyled{
 #slide4{
   background:url('../../images/4_def.jpg') top center no-repeat;
   background-size: cover;
+
+}
+.item h4{
+
+  color:#ff9800;
+  font-size: large;
+  font-family: 'Open-sans' sans-serif,solid;
+  font-size: 40px;
+
+  margin-top: 80px;
+  margin-left: 40px;
 }
 
+#slide1 h4{
+  position: absolute;
 
+  right:10px;
+  bottom: 350px;
+}
+#slide1 p{
+  position: absolute;
+  right:0;
+  bottom: 300px;
+}
 
 /* --------------------------------------
    Global Styles
@@ -200,6 +227,16 @@ ul.unstyled{
   background:url('../../images/4_small.jpg') top center no-repeat;
   background-size: cover;
 }
+.hero-unit {
+
+  width:100%;
+  position:relative;
+  background: url('../../images/csr_small.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 }
 
@@ -226,6 +263,8 @@ ul.unstyled{
     background:url('../../images/4_large.jpg') top center no-repeat;
     background-size: cover;
   }
+
+
 
 
 }
@@ -266,4 +305,41 @@ text-align: center;
 }
 .mission .row:first-child{
   padding-bottom: 30px;
+}
+/*--------------
+hero
+--------------------*/
+
+.main2{
+  top:800px;
+
+}
+
+
+html,body,#main {
+  height:100%;
+}
+
+.hero-unit {
+  height:100%;
+  width:100%;
+  position:relative;
+  background: url('../../images/csr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.hero-unit-caption {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  bottom: 12%;
+
+  color:#ff9800;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif,solid;
+  font-size: 40px;
 }
